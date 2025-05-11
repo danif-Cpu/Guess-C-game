@@ -1,4 +1,4 @@
-***-Guess the number.***
+# Guess the number.
 
 Esse codigo apenas foi feito com o intuito de melhorar minha 
 experiencia com **C** e diversão.
