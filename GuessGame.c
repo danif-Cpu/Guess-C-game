@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdbool.h>
+
 //VARIAVEIS
 int Rand;
 int* Rand_p = &Rand;
@@ -23,7 +24,6 @@ char* number2_p = number2;
 //jogo de escolher o numero
 int game(char* name2_p, char* name1_p, int* Rand_p, char* number1_p, char* number2_p){
     
-    //tentativa de correçao
     char resultado[3];
     
     while(1){
@@ -63,11 +63,8 @@ int game(char* name2_p, char* name1_p, int* Rand_p, char* number1_p, char* numbe
     //ninguem venceu?
     else{
         puts("Ninguem venceu\n");
-        /*
-         * olha deepseek... VAI SE LASCAR CARA, NN OUSAS CHAMAR MEU CODIGO DE FEIO*/
-        /*
-         * olha gemini, ja arrumei, precisa ficar mas preucupado com a pilha nn.
-         */
+        
+         
     }
     }
     
